@@ -1,0 +1,37 @@
+{
+  "currency": "IDR",
+  "unit": "gram",
+  "premium_percent": 0,
+  "alert_below": null,
+  "alert_above": null,
+  "move_percent": 1.0,
+  "news": {
+    "enabled": true,
+    "in_alerts": false,
+    "max_age_hours": 24,
+    "per_query": 3,
+    "max_items": 6,
+    "queries": [
+      {
+        "q": "harga emas",
+        "hl": "id",
+        "gl": "ID"
+      },
+      {
+        "q": "emas Antam",
+        "hl": "id",
+        "gl": "ID"
+      },
+      {
+        "q": "gold price Fed dollar",
+        "hl": "en",
+        "gl": "SG"
+      }
+    ]
+  },
+  "trading": {
+    "enabled": true,
+    "atr_sl_mult": 1.5,
+    "rr": 2.0
+  }
+}
